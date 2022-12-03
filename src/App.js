@@ -1,7 +1,6 @@
 import './App.css';
 import Separator from './Components/Separator/Separator';
 import UseEffect from './Components/UseEffect/UseEffect';
-// import UseJsonFetch from './Components/UseJsonFetch/UseJsonFetch';
 
 function App() {
   return (
@@ -9,7 +8,7 @@ function App() {
       <h1 className=''>Курс React.<br></br>Домашнее задание по&nbsp;теме<br></br>"Hooks & Context API"</h1>
       <h2 className='mx-auto text-center'>Задание 1. "useEffect (UseEffect)"</h2>
       <div className='task-1' id='task-1'>
-        <UseEffect className = {''}/>
+        <UseEffect/>
       </div>
       <Separator/>
       {/* <h2 className='mx-auto text-center'>Задание 2. "useJsonFetch (UseJsonFetch)"</h2>
