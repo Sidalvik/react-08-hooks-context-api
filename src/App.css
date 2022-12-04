@@ -181,3 +181,39 @@ h2 {
 #task-1 li:last-child {
     border-radius: 0 0 5px 5px;
 }
+
+#task-2 h3 {
+    margin-bottom: 1.5em;
+    padding: 1.5rem;
+    font-size: 1.5rem;
+}
+
+#task-2 .task-2-componet {
+    position: relative;
+    text-align: center;
+    border: 1px solid #5997d1;
+    margin-bottom: 1.5rem;
+}
+
+@media (min-width: 640px) {
+    #task-2 .use-json-fetch {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        gap: 2rem;
+    }
+
+    #task-2 .task-2-componet {
+        margin: 0;
+    }
+}
+
+#task-2 .task-2-componet > p {
+    margin-bottom: 0.75em;
+}
+
+#task-2 .task-2-componet .modal {
+    position: absolute;
+    backdrop-filter: blur(0px);
+}
+    
